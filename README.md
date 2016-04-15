@@ -91,3 +91,8 @@ Some databases offer you workspaces and versioning, but you could use git for th
 ## Similar
 * NoSQL has also scheme-less, but you have still prose as part of the content. Some NoSQL-DB use JSON, you still have to fill in your (markdown-)prose into a JSON Object. 
 * The ((p:Content Repository for Java Technology API)) (JCR), now used by Symfony, is imho very useful for "real" structured data services like flickr, yelp, imdb etc.  
+
+
+## Status of this documents
+
+I thought about this while I was getting user feedack on my ssg [drfrederson](https://github.com/klml/drfrederson). I am very open for comments or change requests.
