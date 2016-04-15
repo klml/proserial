@@ -40,11 +40,12 @@ And you have to define some specialties:
 
 You can use yaml, JSON, xml or csv. But often you need only key-values like [wordpress custom fields](https://codex.wordpress.org/Custom_Fields), so you could use some syntax from prose. The [definition list](https://www.w3.org/TR/html401/struct/lists.html#h-10.3) is supported by [some](http://talk.commonmark.org/t/description-list/289/12) markdown implementations.
 
-   pagetitle
-   : Some alternative title
-   metakeywords
-   : some us less words used not by dr who
-
+```
+pagetitle
+: Some alternative title
+metakeywords
+: some us less words used not by dr who
+```
 
 
 ## delimiter
@@ -90,7 +91,7 @@ Some databases offer you workspaces and versioning, but you could use git for th
 
 ## Similar
 * NoSQL has also scheme-less, but you have still prose as part of the content. Some NoSQL-DB use JSON, you still have to fill in your (markdown-)prose into a JSON Object. 
-* The ((p:Content Repository for Java Technology API)) (JCR), now used by Symfony, is imho very useful for "real" structured data services like flickr, yelp, imdb etc.  
+* The [Content Repository for Java Technology API](https://en.wikipedia.org/wiki/Content_repository_API_for_Java) (JCR), now used by Symfony, is imho very useful for "real" structured data services like flickr, yelp, imdb etc.  
 
 
 ## Status of this documents
