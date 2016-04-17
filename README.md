@@ -1,6 +1,6 @@
 # PROSErial
 
-> A format to include structured data into prose
+> under construction
 
 
 Some software is mainly used for storing and serving human created date (like office documents, email, blogs, wikis, websites); in contrast to software used to store machine aggregated data (like weather forecasts) or software for real computing (like protein folding).
