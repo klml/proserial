@@ -96,6 +96,6 @@ Some databases offer you workspaces and versioning, but you could use git for th
 * The [Content Repository for Java Technology API](https://en.wikipedia.org/wiki/Content_repository_API_for_Java) (JCR), now used by Symfony, is imho very useful for "real" structured data services like flickr, yelp, imdb etc.  
 
 
-## Status of this documents
+## Status of this document
 
-I thought about this while I was getting user feedack on my ssg [drfrederson](https://github.com/klml/drfrederson). I am very open for comments or change requests.
+I thought about this while I was getting user feedack on my ssg [drfrederson](https://github.com/klml/drfrederson). I am very open for comments or change requests. 
