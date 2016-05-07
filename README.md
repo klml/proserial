@@ -13,8 +13,10 @@ It would be very great to unbind applications from the Drupal-, Wordpress-, zend
 
 Of course you could process any content representation to a content repository (like JCR), but every step of processing is a source of error. So I want an human-readable-writable content repository to have the freedom to work on it direct, without any software between.
 
-Most [staticsitegenerators](https://staticsitegenerators.net/) already use some plain file to store their content in a mix from prose and structure (e.g. [Jekyll](https://raw.githubusercontent.com/mojombo/mojombo.github.io/master/_posts/2015-06-19-replicated.md) ), but not standardized and so not compatible.
+Most [staticsitegenerators](https://staticsitegenerators.net/) already use some plain file to store their content in a mix from prose and structure (e.g. [Jekyll](https://raw.githubusercontent.com/mojombo/mojombo.github.io/master/_posts/2015-06-19-replicated.md) ), but:
 
+* not standardized and so not interexchangable.
+* a mandatory and structure at the beginnning of a source file. This is confussing for "normal" users.
 
 ## form
 A "human-readable-writable content format" should start with a plain part in Markdown (or any other light markup) and after a [delimiter](#delimiter) structured content (for attributes, metadata, tagging etc), written in YAML (or similar). The position of structured content should be __below__ the prose, prose is always more important.
