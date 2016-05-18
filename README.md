@@ -2,17 +2,6 @@
 
 > under construction
 
-
-Some software is mainly used for storing and serving human created date (like office documents, email, blogs, wikis, websites); in contrast to software used to store machine aggregated data (like weather forecasts) or software for real computing (like protein folding).
-This human created content gets stored in plain files, files with markup (like xml) or databases. Databases have big benefits in indexing, metadata and integrity of data.
-But once you decide using a content-management-system or a framework, you are tied to the applications own database scheme.
-
-Why cant you separate the data storage in real files, like UNIX: [Store data in flat text files](https://en.wikipedia.org/wiki/Unix_philosophy)
-
-It would be very great to unbind applications from the Drupal-, Wordpress-, zend-data etc scheme. For prose orientated applications, with not so structured data, like blogs, wikis or common websites, I would prefer a more __human-readable-writable content format__. Lets call it __PROSErial__. 
-
-Of course you could process any content representation to a content repository (like JCR), but every step of processing is a source of error. So I want an human-readable-writable content repository to have the freedom to work on it direct, without any software between.
-
 Most [staticsitegenerators](https://staticsitegenerators.net/) already use some plain file to store their content in a mix from prose and structure (e.g. [Jekyll](https://raw.githubusercontent.com/mojombo/mojombo.github.io/master/_posts/2015-06-19-replicated.md) ), but:
 
 * not standardized and so not interexchangable.
