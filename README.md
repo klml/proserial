@@ -16,7 +16,7 @@ Of course you could process any content representation to a content repository (
 Most [staticsitegenerators](https://staticsitegenerators.net/) already use some plain file to store their content in a mix from prose and structure (e.g. [Jekyll](https://raw.githubusercontent.com/mojombo/mojombo.github.io/master/_posts/2015-06-19-replicated.md) ), but:
 
 * not standardized and so not interexchangable.
-* a mandatory and structure at the beginnning of a source file. This is confussing for "normal" users.
+* a mandatory and structure at the beginnning of a source file; e.g. in jekyll, [all blog post files must begin with YAML Front Matter.](https://jekyllrb.com/docs/posts/) This is confussing for "normal" users.
 
 ## form
 A "human-readable-writable content format" should start with a plain part in Markdown (or any other light markup) and after a [delimiter](#delimiter) structured content (for attributes, metadata, tagging etc), written in YAML (or similar). The position of structured content should be __below__ the prose, prose is always more important.
