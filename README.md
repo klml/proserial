@@ -6,7 +6,7 @@ Most [staticsitegenerators](https://staticsitegenerators.net/) use plain file to
 
 There are some confussing disadvantages for "normal" users:
 
-* it is __mandatory__, if you just want to write text, the YAML front matter block will distract users 
+* it is __mandatory__, if you just want to write text, users will stumble over the YAML front matter block
 * [files must __begin__ with YAML Front Matter.](https://jekyllrb.com/docs/posts/) 
 
 ## form
