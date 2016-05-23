@@ -81,7 +81,9 @@ or
 
 
 ### no delimiter
-Or you use no limiter at all. Mediawiki uses a special internal link ''[[Category:xxxxxx]]''. It does not matter where you put on this special link in your text, you will get a tag, but the link to the tag wont show up at the position in text.
+Or you use no limiter at all. Mediawiki uses a special internal link ''[[Category:xxxxxx]]''; _Category_ is the magic word to create a category for the page instead a link. It does not matter where you put on this special link in your text, you will get a tag, but the link to the tag wont show up at the position in text.
+
+Of course this is only useful for key-value information, like tags, and not complex objects.
 
 ## identify
 
