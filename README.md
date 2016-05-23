@@ -87,7 +87,7 @@ Of course this is only useful for key-value information, like tags, and not comp
 
 ## identify
 
-Which extension and mimetype should to choose? Using the  extension from the prose-markup or an own (and again another;() extension like ''.mdyaml'' and ''text/markdown-yaml''
+You could use an own file-extension and mimetype, like ''.mdyaml'' and ''text/markdown-yaml''. But this seems not useful (atm).
 
 
 ## Pro Cons
