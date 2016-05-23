@@ -31,7 +31,11 @@ And you have to define some specialties:
 
 ## structure
 
-You can use yaml, JSON, xml or csv. But often you need only key-values like [wordpress custom fields](https://codex.wordpress.org/Custom_Fields), so you could use some syntax from prose. The [definition list](https://www.w3.org/TR/html401/struct/lists.html#h-10.3) is supported by [some](http://talk.commonmark.org/t/description-list/289/12) markdown implementations.
+Of course [yaml](http://yaml.org/), the _human friendly data serialization standard for all programming languages_, should be the standard.
+
+Beside yaml you could use JSON, xml or csv. Define this in the [delimiter](#delimiter). 
+
+To have it more easier for users, use some, well known, syntax from prose. Often you need only key-values like [wordpress custom fields](https://codex.wordpress.org/Custom_Fields). The [html definition list](https://www.w3.org/TR/html401/struct/lists.html#h-10.3) is supported by [some](http://talk.commonmark.org/t/description-list/289/12) markdown implementations.
 
 ```
 pagetitle
@@ -39,12 +43,12 @@ pagetitle
 metakeywords
 : some us less words used not by dr who
 ```
-
+The advantage is, users could use the same syntax for key-values in prose text as for document structure.  
 
 ## delimiter
-To separate prose from structure you have to use a separator. This should be a string not already used, but easy to remember. 
+To separate prose from yaml-structure you have to use a separator. This should be a string not already used, but easy to remember. 
 
-Jekyll [uses](https://raw.githubusercontent.com/mojombo/mojombo.github.io/master/_posts/2015-06-19-replicated.md) the yaml separator ''---'', but __mandatory__ and before the prose. So why dont use someting like the [unix shebang](https://en.wikipedia.org/wiki/Shebang_%28Unix%29) (''#!'') with the following structure language (''#!yaml'', ''#!xml'', etc). 
+Jekyll [uses](https://raw.githubusercontent.com/mojombo/mojombo.github.io/master/_posts/2015-06-19-replicated.md) the yaml separator ''---'', but __mandatory__ and before the prose. 
 
 lets use a (underline) heading from the used [light markup](https://en.wikipedia.org/wiki/Lightweight_markup_language#Underline), with a [magic string](https://en.wikipedia.org/wiki/Magic_string), so when editing prose you see the structure as own heading (syntaxcoloring, automatic TOC). As magic string you could use some [Disemvoweling](https://en.wikipedia.org/wiki/Disemvoweling) (dsmvwlng):
 
@@ -57,7 +61,26 @@ strctr
 ===============
 </pre>
 
+### non yaml
 
+If you want to use a alternative to yaml for [structure](#structure), define it with the [unix shebang](https://en.wikipedia.org/wiki/Shebang_%28Unix%29) (''#!'').
+
+('''', etc).
+
+<pre>
+#!xml
+</pre>
+or
+<pre>
+#!json
+</pre>
+or
+<pre>
+#!md
+</pre>
+
+
+### no delimiter
 Or you use no limiter at all. Mediawiki uses a special internal link ''[[Category:xxxxxx]]''. It does not matter where you put on this special link in your text, you will get a tag, but the link to the tag wont show up at the position in text.
 
 ## identify
