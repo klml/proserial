@@ -65,8 +65,6 @@ strctr
 
 If you want to use a alternative to yaml for [structure](#structure), define it with the [unix shebang](https://en.wikipedia.org/wiki/Shebang_%28Unix%29) (''#!'').
 
-('''', etc).
-
 <pre>
 #!xml
 </pre>
