@@ -79,7 +79,7 @@ or
 
 
 ### no delimiter
-Or you use no delimiter at all. In Mediawiki you can [assign a category to a page, simply add the link [[Category:Category name\]\] to the page's wikitext.](https://www.mediawiki.org/wiki/Help:Categories#Summary); _Category_ is the magic word to create a category for the page instead a link. It does not matter where you put on this special link in your text, you will get a tag, but the link to the tag wont show up at the position in text.
+Or you use no delimiter at all. In Mediawiki you can [assign a category to a page, simply add the link \[\[Category:Category name\]\] to the page's wikitext.](https://www.mediawiki.org/wiki/Help:Categories#Summary); _Category_ is the magic word to create a category for the page instead a link. It does not matter where you put on this special link in your text, you will get a tag, but the link to the tag wont show up at the position in text.
 
 Of course this is only useful for key-value information, like tags, and not complex objects.
 
