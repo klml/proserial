@@ -43,7 +43,10 @@ pagetitle
 metakeywords
 : some us less words used not by dr who
 ```
-The advantage is, users could use the same syntax for key-values in prose text as for document structure.  
+The advantage is, users could use the same syntax for key-values in prose text as for document structure.
+
+YAML has a similar, but unfortunately not compatible, element, the *colon space* separated 
+keys-values (```key:  value ```). These have to be in line, instead after a line break.
 
 ## delimiter
 To separate prose from yaml-structure you have to use a separator. This should be a string not already used, but easy to remember. 
