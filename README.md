@@ -11,7 +11,7 @@ There are some confusing disadvantages for "normal" users:
 
 ## form
 A "human-readable-writable content format" should start with a plain part in Markdown (or any other light markup) and after a [delimiter](#delimiter) structured content (for attributes, metadata, tagging etc), written in YAML (or similar). The position of structured content should be __below__ the prose, prose is always more important.
-And structured content should be __not__ be mandatory, somtimes you just want to have text. If you have only content, just start with the delimiter (like a shebang).
+And structured content should be __not__ be mandatory, somtimes you just want to have text. If you have only structured  content, just start with the delimiter (like a shebang).
 
 ## prose
 ### prose included structure
