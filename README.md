@@ -2,7 +2,8 @@
 
 > under construction
 
-Most [staticsitegenerators](https://staticsitegenerators.net/) use plain file to store their content in a mix from prose and structure. [Jekyll Front Matter](https://jekyllrb.com/docs/frontmatter/) ([standalone](https://github.com/jxson/front-matter)) is widely used by several other systems.
+Most [staticsitegenerators](https://staticsitegenerators.net/) use plain file to store their content in a mix from prose and structure.
+[Front Matter](https://github.com/jxson/front-matter) is widely used by several other systems, like [Jekyll](https://jekyllrb.com/docs/frontmatter/) or [HUGO](https://gohugo.io/content-management/front-matter/).
 
 There are some confusing disadvantages for "normal" users:
 
