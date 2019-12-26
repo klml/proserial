@@ -22,29 +22,19 @@ The structured content should use [YAML](https://yaml.org).
 ## delimiter
 
 To separate prose from yaml-structure you have to use a separator. This should be a string not already used, but easy to remember. 
-
 Jekyll [uses](https://raw.githubusercontent.com/mojombo/mojombo.github.io/master/_posts/2015-06-19-replicated.md) the yaml separator ''---'', but __mandatory__ and before the prose. 
 
-Lets use a heading from the used [light markup](https://en.wikipedia.org/wiki/Lightweight_markup_language#Underline), with a [magic string](https://en.wikipedia.org/wiki/Magic_string), so when editing prose you see the structure part as an additional heading (syntaxcoloring, automatic TOC).
+Lets use the [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) (''#!'') and the used markup.
 
 ```
-#meta
+#!yaml
 metakeywords: "some us less words used not by dr who"
 pagetitle: "Some alternative title"
 ```
 
-
-As magic string you could use some [Disemvoweling](https://en.wikipedia.org/wiki/Disemvoweling) (dsmvwlng):
-
-* meta (mt) is a little bit short
-* serialization (srlztn)
-* structure (strctr)
-
-(undecided)
-
 ### non yaml
 
-If you want to use an alternative to yaml for [structure](#structure), define it with the [unix shebang](https://en.wikipedia.org/wiki/Shebang_%28Unix%29) (''#!'').
+If you want to use an alternative to yaml for [structure](#structure):
 
 ```
 #!json
