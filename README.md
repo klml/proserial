@@ -79,5 +79,5 @@ Of course there are some disadvantages:
 
 ## Status of this document
 
-I thought about this while I was getting user feedack on my ssg [drfrederson](https://github.com/klml/drfrederson).
+I thought about this while I was getting user feedack on my ssg [drfly](https://github.com/klml/drfly).
 I am very open for comments or change requests.
