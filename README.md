@@ -14,7 +14,8 @@ There are some confusing disadvantages for "normal" users:
 
 A "human-readable-writable content format" should start with a plain part in Markdown (or any other light markup) and after a [delimiter](#delimiter) structured content (for attributes, metadata, tagging etc).
 The position of structured content should be __below__ the prose, prose is always more important.
-And structured content should be __not__ be mandatory, somtimes you just want to have text. If you have only structured content, just start with the delimiter (like a shebang).
+And structured content should be __not__ be mandatory, somtimes you just want to have text.
+If you have only structured content, just start with the delimiter (like a shebang).
 
 The structured content should use [YAML](https://yaml.org).
 [Beside yaml](#non-yaml) you could use JSON, xml or csv. Define this in the [delimiter](#delimiter). 
@@ -54,7 +55,8 @@ or even
 </root>
 ```
 
-To have it more easier for users, use some, well known, syntax from prose. Often you need only key-values like [wordpress custom fields](https://codex.wordpress.org/Custom_Fields). The [html definition list](https://www.w3.org/TR/html401/struct/lists.html#h-10.3) is supported by [some](http://talk.commonmark.org/t/description-list/289/12) markdown implementations.
+To have it more easier for users, use some, well known, syntax from prose. Often you need only key-values like [wordpress custom fields](https://codex.wordpress.org/Custom_Fields).
+The [html definition list](https://www.w3.org/TR/html401/struct/lists.html#h-10.3) is supported by [some](http://talk.commonmark.org/t/description-list/289/12) markdown implementations.
 
 ```
 #!md
@@ -77,4 +79,5 @@ Of course there are some disadvantages:
 
 ## Status of this document
 
-I thought about this while I was getting user feedack on my ssg [drfrederson](https://github.com/klml/drfrederson). I am very open for comments or change requests.
+I thought about this while I was getting user feedack on my ssg [drfrederson](https://github.com/klml/drfrederson).
+I am very open for comments or change requests.
