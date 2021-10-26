@@ -14,6 +14,10 @@ There are some confusing disadvantages for "normal" users:
 
 A "human-readable-writable content format" should start with a plain part in Markdown (or any other light markup) and after a [delimiter](#delimiter) structured content (for attributes, metadata, tagging etc).
 The position of structured content should be __below__ the prose, prose is always more important.
+
+Front-matter requires a start_delimiter _and_ an end_delimiter.
+You can omit the delimiter next to end-of-file (or beginning) and use just __one__ [delimiter](#delimiter).
+
 And structured content should be __not__ be mandatory, somtimes you just want to have text.
 If you have only structured content, just start with the delimiter (like a shebang).
 
