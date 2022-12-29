@@ -80,6 +80,12 @@ Of course there are some disadvantages:
 * not [well formed](https://en.wikipedia.org/wiki/Well-formed_document) like xml, (but it is possible to parse this md-yaml mixup)
 * no datatype specification for structured data (but in most blogs or wikis most metadata are strings and dates)
 
+## In the wild
+
+Not exactly PROSErial, but hitting my main requirement: _optionality_ and _end-of-file_.
+
+* [pandoc extension-yaml_metadata_block](https://pandoc.org/MANUAL.html#extension-yaml_metadata_block)
+
 
 ## Status of this document
 
