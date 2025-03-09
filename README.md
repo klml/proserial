@@ -1,5 +1,6 @@
 # PROSErial
 
+> moved to https://codeberg.org/klml/proserial  
 > under construction
 
 Most [staticsitegenerators](https://staticsitegenerators.net/) use plain file to store their content in a mix from prose and structure.
